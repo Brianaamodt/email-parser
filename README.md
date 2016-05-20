@@ -4,11 +4,7 @@ This application accesses the user's inbox and then submits the present emails a
 
 # Implementation #
 
-Navigate to https://rcedev.kineticdata.com/kinetic-task/app/trees and find the task tree you wish to connect to this application. Take the values of the Source, Group and Tree columns and inject them into the following variables below:
-
-*@sourceRoot* = Source
-*@sourceGroup* = Group
-*@sourceTree* = Tree
+add the url(s) you want the parsed emails to be pushed too the @urlList array in mailboxHelper.rb
 
 after setting up a service account key for the gmail api, Download the P12 file created in https://console.developers.google.com/apis/credentials then click on 'manage service accounts',
 
